@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KMAlertView_Example' do
+  pod 'KMAlertView', :path => '../'
+
+  target 'KMAlertView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
