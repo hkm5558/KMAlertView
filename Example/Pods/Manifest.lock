@@ -1,0 +1,16 @@
+PODS:
+  - KMAlertView (0.1.0)
+
+DEPENDENCIES:
+  - KMAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  KMAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KMAlertView: 35d7e6bedae178abdafe2e7871d0ef7b154d990f
+
+PODFILE CHECKSUM: baa57b401586dec5e7aeee3a9cfbb55ea2c7119f
+
+COCOAPODS: 1.2.1.beta.1

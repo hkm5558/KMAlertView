@@ -1,0 +1,6 @@
+framework module Pods_KMAlertView_Example {
+  umbrella header "Pods-KMAlertView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
