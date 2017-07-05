@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "NSAttributedString+KMAlertTextSize.h"
 #import "KMAlertStyle.h"
 #import "KMAlertView.h"
 
