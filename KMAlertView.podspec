@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KMAlertView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KMAlertView.'
+  s.version          = '0.0.2'
+  s.summary          = '一款自定义的AlertView 附带动画效果'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,13 +30,20 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KMAlertView/Classes/**/*'
+  s.source_files = 'KMAlertView/Classes/*'
   
   # s.resource_bundles = {
   #   'KMAlertView' => ['KMAlertView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'KMAlertView/Classes/*.h'
+
+    s.subspec 'KMAlertStyle' do |ss|
+    ss.source_files = 'KMAlertView/Classes/KMAlertStyle/*.{h,m}'
+    ss.public_header_files = 'KMAlertView/Classes/KMAlertStyle/*.h'
+  end
+
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

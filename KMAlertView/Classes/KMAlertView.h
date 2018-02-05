@@ -3,7 +3,7 @@
 //  KM_Kit
 //
 //  Created by KM on 2017/6/13.
-//  Copyright © 2017年 黄昆明. All rights reserved.
+//  Copyright © 2017年 KM. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -79,9 +79,9 @@
 
 #pragma mark - Alert Animate
 
-#define kKMAlertAnimateInDuration 0.35
+#define kKMAlertAnimateInDuration 0.5
 
-#define kKMAlertAnimateOutDuration 0.35
+#define kKMAlertAnimateOutDuration 0.5
 
 #define kKMAlertAnimateSpringDamping 0.75
 
