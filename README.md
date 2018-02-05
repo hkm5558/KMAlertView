@@ -6,13 +6,13 @@
 
 ### NoneBlur
 
-<img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur1.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur2.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur3.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur4.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur5.png" width="192">
+<img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur1.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur2.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur3.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur4.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/NoneBlur5.png" width="192">
 
 ### LightBlur
-<img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur1.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur2.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur3.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur4.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur5.png" width="192">
+<img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur1.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur2.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur3.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur4.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LightBlur5.png" width="192">
 
 ### DarkBlur
-<img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur1.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur2.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur3.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur4.png" width="192"><img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur5.png" width="192">
+<img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur1.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur2.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur3.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur4.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur5.png" width="192">
 
 ## Installation with CocoaPods
 
