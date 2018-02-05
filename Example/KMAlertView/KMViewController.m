@@ -41,7 +41,7 @@
 }
 
 - (IBAction)clickShowAlertButton:(UIButton *)sender {
-    
+
     [KMAlertView showAlertWithButtonTitles:self.buttonTitles styleConfigBlock:^KMAlertStyle *(KMAlertStyle *alertStyle) {
         return self.style;
     } callBackBlock:^(NSInteger buttonIndex, NSString *buttonTitle) {
