@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   KMAlertView:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   KMAlertView: 35d7e6bedae178abdafe2e7871d0ef7b154d990f
 
 PODFILE CHECKSUM: baa57b401586dec5e7aeee3a9cfbb55ea2c7119f
 
-COCOAPODS: 1.2.1.beta.1
+COCOAPODS: 1.4.0.beta.2

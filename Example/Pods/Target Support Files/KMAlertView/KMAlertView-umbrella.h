@@ -11,6 +11,7 @@
 #endif
 
 #import "KMAlertStyle.h"
+#import "KMAlertStyleDefaultConst.h"
 #import "KMAlertView.h"
 
 FOUNDATION_EXPORT double KMAlertViewVersionNumber;

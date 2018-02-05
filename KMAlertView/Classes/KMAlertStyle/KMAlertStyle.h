@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "KMAlertStyleDefaultConst.h"
+
 
 typedef NS_ENUM(NSUInteger, KMAlertViewAnimateInType) {
     KMAlertViewAnimateInTypeScale = 0,

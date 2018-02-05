@@ -258,7 +258,8 @@
     }
     
     CGFloat margin = (self.style.alertView.width - self.style.separator.horizontalWidth) / 2.0;
-    
+    self.buttonContainer.layoutMargins = UIEdgeInsetsZero;
+    self.buttonContainer.preservesSuperviewLayoutMargins = NO;
     self.buttonContainer.separatorColor = self.style.separator.horizontalColor;
     self.buttonContainer.separatorInset = UIEdgeInsetsMake(0, margin, 0, margin);
 }
@@ -621,7 +622,7 @@
     
     switch (_style.animate.inType) {
         case KMAlertViewAnimateInTypeScale:{
-            _shadowView.transform = CGAffineTransformMakeScale(1.5, 1.5);
+            _shadowView.transform = CGAffineTransformMakeScale(0.6, 0.6);
         }
             break;
         case KMAlertViewAnimateInTypeTop:{
@@ -846,7 +847,7 @@
     [UIView animateWithDuration:_style.animate.animateOutDuration delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         
         if (_style.animate.outType == KMAlertViewAnimateOutTypeScale) {
-            _shadowView.transform = CGAffineTransformMakeScale(0.1, 0.1);
+            _shadowView.transform = CGAffineTransformMakeScale(0.6, 0.6);
             [self configAfterHideAlert];
         }else{
             if (_style.animate.isBounce) {
@@ -930,7 +931,7 @@
     cell.buttonStyle = buttonStyle;
     cell.alertButton.tag = indexPath.row + KM_Btn_Tag;
     [cell.alertButton addTarget:self action:@selector(buttonClickEvent:) forControlEvents:UIControlEventTouchUpInside];
-    
+    cell.layoutMargins = UIEdgeInsetsZero;
     return cell;
 }
 

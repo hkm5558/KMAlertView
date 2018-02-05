@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		02EC308C923A9C55EC5704613665965D /* Pods-KMAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3FB69DAD8A7C0796838F0C254F1EE9 /* Pods-KMAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18C7601FC055F1574198480ADCC535EA /* KMAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE3419C220C107E233B5D88812BB502 /* KMAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A82762F954C5685D317845D6AD2A13A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2449606E45D14F557121E1BCD0A1C94B /* KMAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE25F815952D56B4239DB69CEEE47E /* KMAlertView-dummy.m */; };
-		5487EF772450EFD0D93CC1D25BD71DFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		704FF90A118FFF9314CA4345AB606396 /* KMAlertStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D132E1DCAC33583D974E77F1F9D60F0 /* KMAlertStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EDFFFAE653BA4AC12E1AF79C4B25ED5 /* KMAlertStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411BDE79CD35D98302F4B9BFED3D92E /* KMAlertStyle.m */; };
+		19C591B26C5CF0970891B1DF2F0C0026 /* KMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC793BF200BBECCADD4BD74008302D5 /* KMAlertView.m */; };
+		4A29951376F47264EC81808783D8E3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6C637640DDAFE5732411A28BCD12DD32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7893EE7546D2F3A93FD6302EE698566D /* Pods-KMAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 859423394C2AD1A04EB9A3C52B6E3B08 /* Pods-KMAlertView_Example-dummy.m */; };
-		9FFC456A4191544D2E8D5DCE4D2743E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7EA11B7F48A9C650EB1C2EE0C3AD3441 /* KMAlertStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = CA00CD2AA54D1043F98E92FE7B4EF5F6 /* KMAlertStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95943166FF91A659AD522232D70D32D3 /* KMAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AC1DDAA97319B741F12C6BE7687315 /* KMAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97DED18CE3A7D31B0D4077D650F8CCBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9A287891993B24736A111658D5D81A58 /* KMAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29959EAD10395C23168DF3D17D01DB88 /* KMAlertView-dummy.m */; };
 		AC18531F93BCA01370F1CB4B69A0F89D /* Pods-KMAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DEDC92A2B455ACA91F99F782A433F8 /* Pods-KMAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B55450E7CE84B5E9DB1AE587824CB7E7 /* Pods-KMAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A993FF64EE71DF72733CBB6C0FAFD8 /* Pods-KMAlertView_Tests-dummy.m */; };
-		B787743D83ED0D6EF2CF8F267F685B58 /* KMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FA733895A32F2091CFCC8D9E7326AD /* KMAlertView.m */; };
-		BAD3DFA7B2E5E18F5243F7814A973266 /* KMAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3DEE7343462CF5D62BF67EE7155B00 /* KMAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBB57AB67108813D365CF054CE08D9E6 /* KMAlertStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C8448FB6B54D84AE3D73C3E30C7F80D7 /* KMAlertStyle.m */; };
+		CDEE7FC2130000996906267013E825A0 /* KMAlertStyleDefaultConst.h in Headers */ = {isa = PBXBuildFile; fileRef = E57B8E4F84A35EFE16CC600BFEA05829 /* KMAlertStyleDefaultConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7666C2947EE75065E78F89A9E3E1C0 /* KMAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12D8E3C42464888EAA72E57C6443B30B /* KMAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,44 +28,45 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D269DED0D7AA512EBC1A2A164F22F3CF;
+			remoteGlobalIDString = DC4CD73174C569B2CA7D65A5A1BBE744;
 			remoteInfo = KMAlertView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D3CDB5AD04DCC46B125288807F699D1 /* Pods-KMAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12D8E3C42464888EAA72E57C6443B30B /* KMAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMAlertView-umbrella.h"; sourceTree = "<group>"; };
 		1489EE1638E3D60BC66C95C20165FAE1 /* Pods-KMAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		17714A5D953F66269DC98B7F5C1C4C5B /* Pods-KMAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CA46A134872EF4064CA453D26E27FDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F2738F4D883351A908A912647C3D606 /* Pods-KMAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		29959EAD10395C23168DF3D17D01DB88 /* KMAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMAlertView-dummy.m"; sourceTree = "<group>"; };
 		39873E7B870EDFCB58B7130E9466B979 /* Pods-KMAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		420E376596A5574CE84761987E5C0005 /* KMAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KMAlertView.modulemap; sourceTree = "<group>"; };
+		3D0C9A34B2F8E8B26A7960EE3BD742C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44DEDC92A2B455ACA91F99F782A433F8 /* Pods-KMAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KMAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4C3DEE7343462CF5D62BF67EE7155B00 /* KMAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMAlertView.h; sourceTree = "<group>"; };
 		56AB2ADD038E46B71B2E7DEF024DF277 /* Pods-KMAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KMAlertView_Tests.modulemap"; sourceTree = "<group>"; };
-		5CAE25F815952D56B4239DB69CEEE47E /* KMAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMAlertView-dummy.m"; sourceTree = "<group>"; };
-		5D132E1DCAC33583D974E77F1F9D60F0 /* KMAlertStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMAlertStyle.h; sourceTree = "<group>"; };
 		6396F70D328180A1A1D1B3E68C626FCE /* Pods-KMAlertView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMAlertView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D8CDDA01A0A73BB6A82D1FB9C70B104 /* KMAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMAlertView.xcconfig; sourceTree = "<group>"; };
+		8411BDE79CD35D98302F4B9BFED3D92E /* KMAlertStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMAlertStyle.m; sourceTree = "<group>"; };
 		859423394C2AD1A04EB9A3C52B6E3B08 /* Pods-KMAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KMAlertView_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99A993FF64EE71DF72733CBB6C0FAFD8 /* Pods-KMAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KMAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
-		99B72EE0DECBB45ED87263CAF6508450 /* KMAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMAlertView.xcconfig; sourceTree = "<group>"; };
 		9D3464ECE1CB9EF5907844F1DC0A96EC /* Pods-KMAlertView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMAlertView_Example-resources.sh"; sourceTree = "<group>"; };
-		9FE3419C220C107E233B5D88812BB502 /* KMAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMAlertView-umbrella.h"; sourceTree = "<group>"; };
-		B6FA733895A32F2091CFCC8D9E7326AD /* KMAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMAlertView.m; sourceTree = "<group>"; };
+		A5AC1DDAA97319B741F12C6BE7687315 /* KMAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMAlertView.h; path = KMAlertView/Classes/KMAlertView.h; sourceTree = "<group>"; };
+		A91E6CB23697A1444DB20B8EADEC67E0 /* KMAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMAlertView-prefix.pch"; sourceTree = "<group>"; };
+		B80624CE7DF976E3DF65C53E1B7BF95A /* KMAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KMAlertView.modulemap; sourceTree = "<group>"; };
 		B88EBAE7A17486CABFCBB5DD6E27E706 /* Pods-KMAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA38577325302D5B9FDA6ED0BA1E1302 /* Pods_KMAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KMAlertView_Tests.framework; path = "Pods-KMAlertView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8448FB6B54D84AE3D73C3E30C7F80D7 /* KMAlertStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMAlertStyle.m; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA00CD2AA54D1043F98E92FE7B4EF5F6 /* KMAlertStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMAlertStyle.h; sourceTree = "<group>"; };
 		CD3B679D3F4B16D2C666133A13C5070C /* Pods-KMAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KMAlertView_Example.modulemap"; sourceTree = "<group>"; };
 		CE743F0B3443E2AB6BE110D4E1882B0F /* Pods-KMAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D8722927C3BD6D1A1FE57FF06499B55E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC793BF200BBECCADD4BD74008302D5 /* KMAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KMAlertView.m; path = KMAlertView/Classes/KMAlertView.m; sourceTree = "<group>"; };
 		E1B6A3F2D67A8C4BD522D8BCDE16E2B6 /* Pods-KMAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1C8F5A59ABFB8266E3445A1A014A9ED /* Pods_KMAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KMAlertView_Example.framework; path = "Pods-KMAlertView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41574F57BD7EF4599EA8A75CB9B1789 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57B8E4F84A35EFE16CC600BFEA05829 /* KMAlertStyleDefaultConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMAlertStyleDefaultConst.h; sourceTree = "<group>"; };
 		E8A6F0F1B648986C893BE8B6F9F28536 /* Pods-KMAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF2D09F87C35D616D40BBFFDE51BBB34 /* KMAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMAlertView-prefix.pch"; sourceTree = "<group>"; };
 		F6FB39411CCFF550A412D468935C6C40 /* KMAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KMAlertView.framework; path = KMAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3FB69DAD8A7C0796838F0C254F1EE9 /* Pods-KMAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KMAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
 		FBC41F7CB1573B1A29681DBF2E6721E1 /* Pods-KMAlertView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMAlertView_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -75,15 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5487EF772450EFD0D93CC1D25BD71DFF /* Foundation.framework in Frameworks */,
+				97DED18CE3A7D31B0D4077D650F8CCBB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4926B704D5FCF691CEFDA039B20B44D0 /* Frameworks */ = {
+		3A08D3FB9C56B952D318C8A2D8A8A1A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FFC456A4191544D2E8D5DCE4D2743E6 /* Foundation.framework in Frameworks */,
+				4A29951376F47264EC81808783D8E3AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,22 +93,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A82762F954C5685D317845D6AD2A13A /* Foundation.framework in Frameworks */,
+				6C637640DDAFE5732411A28BCD12DD32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A3FD3CDEFC0B37C27B41CFA041EFBE3 /* Classes */ = {
+		13D2D033BF7E881EB131FF9F1C63DBB3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C3DEE7343462CF5D62BF67EE7155B00 /* KMAlertView.h */,
-				B6FA733895A32F2091CFCC8D9E7326AD /* KMAlertView.m */,
-				FED7784C3BB561622847D055ED8854F6 /* KMAlertStyle */,
+				8B2877989C5CA65D232134203ED98896 /* KMAlertView */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1783356462E1EABEC04F7E417177EED9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0C9A34B2F8E8B26A7960EE3BD742C9 /* Info.plist */,
+				B80624CE7DF976E3DF65C53E1B7BF95A /* KMAlertView.modulemap */,
+				7D8CDDA01A0A73BB6A82D1FB9C70B104 /* KMAlertView.xcconfig */,
+				29959EAD10395C23168DF3D17D01DB88 /* KMAlertView-dummy.m */,
+				A91E6CB23697A1444DB20B8EADEC67E0 /* KMAlertView-prefix.pch */,
+				12D8E3C42464888EAA72E57C6443B30B /* KMAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KMAlertView";
 			sourceTree = "<group>";
 		};
 		2BA036260167F323ACA0CF91B18F0410 /* Products */ = {
@@ -137,47 +150,38 @@
 			path = "Target Support Files/Pods-KMAlertView_Example";
 			sourceTree = "<group>";
 		};
-		5D2DF6EEA6CDA9EACA497107020CC08D /* KMAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				DB657E492F86B6B1C2D6E065D25EB792 /* KMAlertView */,
-				8FDC55B68ED308D21248366840F70D96 /* Support Files */,
-			);
-			name = KMAlertView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C3BAA35AF75607F5BDA818193CCCE8B2 /* Development Pods */,
+				13D2D033BF7E881EB131FF9F1C63DBB3 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				2BA036260167F323ACA0CF91B18F0410 /* Products */,
 				9C1FDC0FBA9B148FEE78771CA38A2831 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8FDC55B68ED308D21248366840F70D96 /* Support Files */ = {
+		8964E3619ED8A5D3D4D18710444DD754 /* KMAlertStyle */ = {
 			isa = PBXGroup;
 			children = (
-				1CA46A134872EF4064CA453D26E27FDD /* Info.plist */,
-				420E376596A5574CE84761987E5C0005 /* KMAlertView.modulemap */,
-				99B72EE0DECBB45ED87263CAF6508450 /* KMAlertView.xcconfig */,
-				5CAE25F815952D56B4239DB69CEEE47E /* KMAlertView-dummy.m */,
-				EF2D09F87C35D616D40BBFFDE51BBB34 /* KMAlertView-prefix.pch */,
-				9FE3419C220C107E233B5D88812BB502 /* KMAlertView-umbrella.h */,
+				CA00CD2AA54D1043F98E92FE7B4EF5F6 /* KMAlertStyle.h */,
+				8411BDE79CD35D98302F4B9BFED3D92E /* KMAlertStyle.m */,
+				E57B8E4F84A35EFE16CC600BFEA05829 /* KMAlertStyleDefaultConst.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KMAlertView";
+			name = KMAlertStyle;
+			path = KMAlertView/Classes/KMAlertStyle;
+			sourceTree = "<group>";
+		};
+		8B2877989C5CA65D232134203ED98896 /* KMAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A5AC1DDAA97319B741F12C6BE7687315 /* KMAlertView.h */,
+				DAC793BF200BBECCADD4BD74008302D5 /* KMAlertView.m */,
+				8964E3619ED8A5D3D4D18710444DD754 /* KMAlertStyle */,
+				1783356462E1EABEC04F7E417177EED9 /* Support Files */,
+			);
+			name = KMAlertView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9C1FDC0FBA9B148FEE78771CA38A2831 /* Targets Support Files */ = {
@@ -210,36 +214,17 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C3BAA35AF75607F5BDA818193CCCE8B2 /* Development Pods */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5D2DF6EEA6CDA9EACA497107020CC08D /* KMAlertView */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		DB657E492F86B6B1C2D6E065D25EB792 /* KMAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				2A3FD3CDEFC0B37C27B41CFA041EFBE3 /* Classes */,
-			);
-			name = KMAlertView;
-			path = KMAlertView;
-			sourceTree = "<group>";
-		};
-		FED7784C3BB561622847D055ED8854F6 /* KMAlertStyle */ = {
-			isa = PBXGroup;
-			children = (
-				5D132E1DCAC33583D974E77F1F9D60F0 /* KMAlertStyle.h */,
-				C8448FB6B54D84AE3D73C3E30C7F80D7 /* KMAlertStyle.m */,
-			);
-			name = KMAlertStyle;
-			path = KMAlertStyle;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,13 +238,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41A7A1E84A50570240C31056F8CD7E8F /* Headers */ = {
+		4AB8C77CBA00B2287FCDDA682B550487 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704FF90A118FFF9314CA4345AB606396 /* KMAlertStyle.h in Headers */,
-				18C7601FC055F1574198480ADCC535EA /* KMAlertView-umbrella.h in Headers */,
-				BAD3DFA7B2E5E18F5243F7814A973266 /* KMAlertView.h in Headers */,
+				7EA11B7F48A9C650EB1C2EE0C3AD3441 /* KMAlertStyle.h in Headers */,
+				CDEE7FC2130000996906267013E825A0 /* KMAlertStyleDefaultConst.h in Headers */,
+				FD7666C2947EE75065E78F89A9E3E1C0 /* KMAlertView-umbrella.h in Headers */,
+				95943166FF91A659AD522232D70D32D3 /* KMAlertView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +277,13 @@
 			productReference = BA38577325302D5B9FDA6ED0BA1E1302 /* Pods_KMAlertView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D269DED0D7AA512EBC1A2A164F22F3CF /* KMAlertView */ = {
+		DC4CD73174C569B2CA7D65A5A1BBE744 /* KMAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 972C826716C6CBB86EACDB7262BD23AE /* Build configuration list for PBXNativeTarget "KMAlertView" */;
+			buildConfigurationList = C045E3E89FF7BC74CA5167BD5D9BC9B8 /* Build configuration list for PBXNativeTarget "KMAlertView" */;
 			buildPhases = (
-				11E5AA2CA6256AE1A403782C5CB45AEC /* Sources */,
-				4926B704D5FCF691CEFDA039B20B44D0 /* Frameworks */,
-				41A7A1E84A50570240C31056F8CD7E8F /* Headers */,
+				A7973078D840B0D302DD71C4CC6D750A /* Sources */,
+				3A08D3FB9C56B952D318C8A2D8A8A1A3 /* Frameworks */,
+				4AB8C77CBA00B2287FCDDA682B550487 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -332,7 +318,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -347,7 +333,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D269DED0D7AA512EBC1A2A164F22F3CF /* KMAlertView */,
+				DC4CD73174C569B2CA7D65A5A1BBE744 /* KMAlertView */,
 				F0AE250EF827EFEDF7E1C57757C29994 /* Pods-KMAlertView_Example */,
 				9D99CA0863C3A9F7F17034DC07A1360C /* Pods-KMAlertView_Tests */,
 			);
@@ -355,21 +341,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		11E5AA2CA6256AE1A403782C5CB45AEC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBB57AB67108813D365CF054CE08D9E6 /* KMAlertStyle.m in Sources */,
-				2449606E45D14F557121E1BCD0A1C94B /* KMAlertView-dummy.m in Sources */,
-				B787743D83ED0D6EF2CF8F267F685B58 /* KMAlertView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F0666EE943F119CE0FE9D7B08D4DD7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B55450E7CE84B5E9DB1AE587824CB7E7 /* Pods-KMAlertView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7973078D840B0D302DD71C4CC6D750A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDFFFAE653BA4AC12E1AF79C4B25ED5 /* KMAlertStyle.m in Sources */,
+				9A287891993B24736A111658D5D81A58 /* KMAlertView-dummy.m in Sources */,
+				19C591B26C5CF0970891B1DF2F0C0026 /* KMAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,297 +373,315 @@
 		A22153AEF7E95A9EB7EF2BFA8E3314DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KMAlertView;
-			target = D269DED0D7AA512EBC1A2A164F22F3CF /* KMAlertView */;
+			target = DC4CD73174C569B2CA7D65A5A1BBE744 /* KMAlertView */;
 			targetProxy = FF848DE405572BFD47E198BCE5AFB8C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		0490DF94FCE4B52009655E8395DF7E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1489EE1638E3D60BC66C95C20165FAE1 /* Pods-KMAlertView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMAlertView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMAlertView_Tests/Pods-KMAlertView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KMAlertView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EDC7C9805D3871581FA2229F9269FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8CDDA01A0A73BB6A82D1FB9C70B104 /* KMAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMAlertView/KMAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMAlertView/KMAlertView.modulemap";
+				PRODUCT_NAME = KMAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68888039A475A73C3BF057DEE65AD912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B6A3F2D67A8C4BD522D8BCDE16E2B6 /* Pods-KMAlertView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMAlertView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMAlertView_Example/Pods-KMAlertView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KMAlertView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		870027DED8D32394C6026D4044720DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE743F0B3443E2AB6BE110D4E1882B0F /* Pods-KMAlertView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMAlertView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMAlertView_Example/Pods-KMAlertView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KMAlertView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B69D34F39AE4EAAF83010F2C53EB38EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8CDDA01A0A73BB6A82D1FB9C70B104 /* KMAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMAlertView/KMAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMAlertView/KMAlertView.modulemap";
+				PRODUCT_NAME = KMAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B877B2D0B8866B01FC39C72F383600F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88EBAE7A17486CABFCBB5DD6E27E706 /* Pods-KMAlertView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMAlertView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMAlertView_Tests/Pods-KMAlertView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KMAlertView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4692206E53A08C834FF49C00E16F6065 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B88EBAE7A17486CABFCBB5DD6E27E706 /* Pods-KMAlertView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KMAlertView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KMAlertView_Tests/Pods-KMAlertView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KMAlertView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6149FAF0D3A49F426472AA538A69BE06 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99B72EE0DECBB45ED87263CAF6508450 /* KMAlertView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KMAlertView/KMAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KMAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KMAlertView/KMAlertView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KMAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6BA232C9E072DD6257FFCDE7B56C1F72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1489EE1638E3D60BC66C95C20165FAE1 /* Pods-KMAlertView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KMAlertView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KMAlertView_Tests/Pods-KMAlertView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KMAlertView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		972C3B85B2A666DDD2BC0CAA1F58841D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1B6A3F2D67A8C4BD522D8BCDE16E2B6 /* Pods-KMAlertView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KMAlertView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KMAlertView_Example/Pods-KMAlertView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KMAlertView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A65359F2ACAA7A3A39319C49F3E9EC90 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE743F0B3443E2AB6BE110D4E1882B0F /* Pods-KMAlertView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KMAlertView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KMAlertView_Example/Pods-KMAlertView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KMAlertView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BFFBCEB2BB7FC63AAFDB08A9FCAF7A38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99B72EE0DECBB45ED87263CAF6508450 /* KMAlertView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KMAlertView/KMAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KMAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KMAlertView/KMAlertView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KMAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -685,8 +689,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -694,8 +698,8 @@
 		5CBD921C66998036B81E6454C439C0D9 /* Build configuration list for PBXNativeTarget "Pods-KMAlertView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BA232C9E072DD6257FFCDE7B56C1F72 /* Debug */,
-				4692206E53A08C834FF49C00E16F6065 /* Release */,
+				0490DF94FCE4B52009655E8395DF7E52 /* Debug */,
+				B877B2D0B8866B01FC39C72F383600F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -703,17 +707,17 @@
 		8CB9EFC23D6CDCECBFEDAB1892647F4E /* Build configuration list for PBXNativeTarget "Pods-KMAlertView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				972C3B85B2A666DDD2BC0CAA1F58841D /* Debug */,
-				A65359F2ACAA7A3A39319C49F3E9EC90 /* Release */,
+				68888039A475A73C3BF057DEE65AD912 /* Debug */,
+				870027DED8D32394C6026D4044720DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		972C826716C6CBB86EACDB7262BD23AE /* Build configuration list for PBXNativeTarget "KMAlertView" */ = {
+		C045E3E89FF7BC74CA5167BD5D9BC9B8 /* Build configuration list for PBXNativeTarget "KMAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6149FAF0D3A49F426472AA538A69BE06 /* Debug */,
-				BFFBCEB2BB7FC63AAFDB08A9FCAF7A38 /* Release */,
+				3EDC7C9805D3871581FA2229F9269FCB /* Debug */,
+				B69D34F39AE4EAAF83010F2C53EB38EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
