@@ -28,7 +28,7 @@ $ gem install cocoapods
 ```
 #### Podfile
 
-To integrate KMUIMaker into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate KMAlertView into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 In your Podfile
 >`pod 'KMAlertView'`
