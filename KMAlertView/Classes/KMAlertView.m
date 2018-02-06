@@ -14,8 +14,7 @@
 
 @interface UIView (KMAlertView_corners)
 
--(void)kmAlertView_setRoundedCorners:(UIRectCorner)corners
-                     radius:(CGFloat)radius;
+-(void)kmAlertView_setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius;
 
 @end
 
