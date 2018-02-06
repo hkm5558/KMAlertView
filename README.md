@@ -14,6 +14,11 @@
 ### DarkBlur
 <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur1.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur2.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur3.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur4.png" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/DarkBlur5.png" width="192">
 
+
+## Animate
+
+<img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/ScaleInScaleOut.gif" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/TopInBottomOut.gif" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/LeftInRightOut.gif" width="192"> <img src="https://github.com/hkm5558/KMAlertView/blob/master/Screenshot/Angle.gif" width="192">
+
 ## Installation with CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries. You can install it with the following command:
