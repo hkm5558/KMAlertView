@@ -42,17 +42,6 @@ $ pod install
 
 This library requires `iOS 8.0+`
 
-## Installation
-
-KMAlertView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "KMAlertView"
-```
-## Requirements
-
-This library requires `iOS 8.0+`
 
 ## Usage
 
